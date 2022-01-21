@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <title>Town & Town</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <!-- favicon-->
+    <link rel="shortcut icon" href="images/logo.png" />
+
+    <!-- 基本CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/modal.js?20211108v1"></script>
+    <!-- <script type="text/javascript" src="asc.js"></script> -->
+
+    <!-- フォント -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+      rel="stylesheet">
+    <style>
+
+
+    </style>
+
+    <script>
+      // $(bell).scroll(function () {
+      //   if ($(bell).scrollTop() > 200) {
+      //     $('.eye').addClass('fixed');
+      //   } else {
+      //     $('.eye').removeClass('fixed');
+      //   }
+      // });
+
+
+    </script>
+  </head>
+  <header>
+    <!-- <img src="images/statue-127546.png"> -->
+
+    <div class="volume">
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas"
+        data-icon="music-alt" class="svg-inline--fa fa-music-alt fa-w-12" role="img" viewBox="0 0 384 512">
+        <path fill="currentColor"
+          d="M310.94 1.33l-96.53 28.51A32 32 0 0 0 192 60.34V360a148.76 148.76 0 0 0-48-8c-61.86 0-112 35.82-112 80s50.14 80 112 80 112-35.82 112-80V148.15l73-21.39a32 32 0 0 0 23-30.71V32a32 32 0 0 0-41.06-30.67z" />
+      </svg> -->
+    </div>
+    <div class="water"></div>
+    <div class="faith">
+      <div class="l-eye">
+
+      </div>
+      <div class="r-eye">
+
+      </div>
+      <div class="mouth">
+        <img src="images/22254357.png">
+      </div>
+    </div>
+
+  </header>
+
+  <body>
+
+    <article class="mainSec">
+      <!-- <header>
+        <div class="room">
+          <div class="townflex">
+            <div class="redtown">
+              <div class="redtowns">
+                <h1>
+                  赤い街
+                </h1>
+                <div class="img redposition">
+                  <img src="images/bordr.png">
+                </div>
+                <div class="fukidasi">
+                  <p>青エネルギーは貴重です</p>
+                </div>
+              </div>
+            </div>
+            <div class="bluetown">
+              <div class="bluetowns">
+                <h1>
+                  青い街
+                </h1>
+                <div class="img blueposition">
+                  <img src="images/bordb.png">
+                </div>
+                <div class="fukidasi1">
+                  <p>赤エネルギーは貴重です</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header> -->
+      <section class="redman">
+        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas"
+          data-icon="hand-paper" class="svg-inline--fa fa-hand-paper fa-w-14" role="img" viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M408.781 128.007C386.356 127.578 368 146.36 368 168.79V256h-8V79.79c0-22.43-18.356-41.212-40.781-40.783C297.488 39.423 280 57.169 280 79v177h-8V40.79C272 18.36 253.644-.422 231.219.007 209.488.423 192 18.169 192 40v216h-8V80.79c0-22.43-18.356-41.212-40.781-40.783C121.488 40.423 104 58.169 104 80v235.992l-31.648-43.519c-12.993-17.866-38.009-21.817-55.877-8.823-17.865 12.994-21.815 38.01-8.822 55.877l125.601 172.705A48 48 0 0 0 172.073 512h197.59c22.274 0 41.622-15.324 46.724-37.006l26.508-112.66a192.011 192.011 0 0 0 5.104-43.975V168c.001-21.831-17.487-39.577-39.218-39.993z" />
+        </svg>
+        <div>
+          <!-- <p></p> -->
+        </div>
+      </section>
+      <section class="blueman">
+        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas"
+          data-icon="hand-paper" class="svg-inline--fa fa-hand-paper fa-w-14" role="img" viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M408.781 128.007C386.356 127.578 368 146.36 368 168.79V256h-8V79.79c0-22.43-18.356-41.212-40.781-40.783C297.488 39.423 280 57.169 280 79v177h-8V40.79C272 18.36 253.644-.422 231.219.007 209.488.423 192 18.169 192 40v216h-8V80.79c0-22.43-18.356-41.212-40.781-40.783C121.488 40.423 104 58.169 104 80v235.992l-31.648-43.519c-12.993-17.866-38.009-21.817-55.877-8.823-17.865 12.994-21.815 38.01-8.822 55.877l125.601 172.705A48 48 0 0 0 172.073 512h197.59c22.274 0 41.622-15.324 46.724-37.006l26.508-112.66a192.011 192.011 0 0 0 5.104-43.975V168c.001-21.831-17.487-39.577-39.218-39.993z" />
+        </svg>
+      </section>
+      <section class="subSec">
+        <div class="flex">
+          <div class="side Redside">
+            <div class="red sa sa--up target">
+              <img src="images/22342568.png">
+            </div>
+
+            <div class="r-Blue sa sa--up target">
+              <img src="images/nose-1.png">
+            </div>
+            <div class="r-Blue sa sa--up target">
+              <img src="images/22412214.png">
+            </div>
+
+            <div class="red sa sa--up target">
+              <img src="images/22288628.png">
+            </div>
+            <div class="r-Blue sa sa--up target">
+              <img src="images/brain-1.png">
+            </div>
+            <div class="bell">
+              <div class="red eye">
+                <img src="images/eye-2769921_1280.jpg">
+              </div>
+            </div>
+            <div class="r-Blue sa sa--up target been">
+              <img src="images/bone-1.png">
+            </div>
+            <div class="r-Blue sa sa--up target">
+              <img src="images/mouth.png">
+            </div>
+            <div class="red sa sa--up target">
+              <img src="images/skull-2.png">
+            </div>
+
+            <div class="r-Blue sa sa--up target">
+              <img src="images/foot-1.png">
+            </div>
+
+          </div>
+
+          <div class="side Blueside">
+            <div class="b-red sa2 sa--up targetblue">
+              <img src="images/cat-3374422_1280.jpg">
+            </div>
+            <div class="b-red sa2 sa--up targetblue">
+              <img src="images/eye-1173863_1280.jpg">
+            </div>
+            <div class="blue sa2 sa--up targetblue">
+              <img src="images/woman-3096664_1280.png">
+            </div>
+            <div class="b-red sa2 sa--up targetblue">
+              <img src="images/eye-2340806_1280.jpg">
+            </div>
+            <div class="b-red sa2 sa--up targetblue">
+              <img src="images/woman-1919143_1280.jpg">
+            </div>
+            <div class="bell1">
+              <div class="b-red sa2 sa--up targetblue">
+                <img src="images/girl-2366438_1280.jpg">
+              </div>
+            </div>
+            <div class="blue sa2 sa--up targetblue">
+              <img src="images/eye-2769921_1280.jpg">
+            </div>
+            <div class="blue sa2 sa--up targetblue">
+              <img src="images/eye-1173863_1280.jpg">
+            </div>
+            <div class=" b-red sa2 sa--up targetblue ">
+              <img src="images/girl-2366438_1280.jpg">
+            </div>
+            <div class=" b-red sa2 sa--up targetblue been2">
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+    </article>
+
+    <footer>
+      <!-- <p>©Office Augusta Co.,LTD. All Rights Reserved.</p> -->
+    </footer>
+    <script type="text/javascript" src="fadein.js"></script>
+    <script type="text/javascript" src="fadein2.js"></script>
+    <script type="text/javascript" src="asc.js"></script>
+
+  </body>
+
+</html>
